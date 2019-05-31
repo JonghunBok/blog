@@ -6,6 +6,7 @@
       <component :is="type" />
     </div>
 
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   </div>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="a4 mx-auto shadow-md bg-white">
+    <div class="a4 mx-auto shadow-md bg-white antialiased">
+      <h1 class="text-center"> {{ $page.title }} </h1>
       <Content />
     </div>
 
@@ -41,6 +42,8 @@ export default {
 </script>
 
 <style lang="stylus">
+p
+  text-align justify
 img 
   width 100%
   display block
@@ -49,10 +52,26 @@ img
 
 figcaption
   margin auto
+  font-size smaller
+  font-weight 500
+  color #002e
+  text-align center
+
+.footnotes-sep
+  margin-top 10em
+
+.footnotes-list
+  padding 0
+  font-size 0.8em
+  color rgba(17, 17, 51, 0.8)
+
+.footnote-item p
+  margin-bottom 0.4em
+  margin-top 0
  
 @media (min-width: 768px)
   img 
-    width 40%
+    width 50%
   img:hover
     width 100%
       
