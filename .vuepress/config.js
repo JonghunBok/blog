@@ -19,6 +19,7 @@ module.exports = {
       md.use(require('markdown-it-sub'));
       md.use(require('markdown-it-footnote'));
       md.use(require('markdown-it-figure-caption'));
+      md.use(require('markdown-it-multimd-table'));
     }
   }
 }
