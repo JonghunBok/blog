@@ -68,12 +68,17 @@ figcaption
 .footnote-item p
   margin-bottom 0.4em
   margin-top 0
+
+h1
+  margin-bottom 0.5cm
  
 @media (min-width: 768px)
   img 
     width 50%
   img:hover
     width 100%
+  h1
+    margin-bottom 1.5cm
       
 </style>
 <style src="prismjs/themes/prism-okaidia.css"></style>
