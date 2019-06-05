@@ -2077,6 +2077,13 @@ markdown-it-footnote@^3.0.1:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
   integrity sha1-fzcwdHysyG4v4L+KF6cQ80eRUXo=
 
+markdown-it-multimd-table@^3.2.0-rc.1:
+  version "3.2.0-rc.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-multimd-table/-/markdown-it-multimd-table-3.2.0-rc.1.tgz#9cd9647fe0b5161d9ef4e30ae309885fce2e8aec"
+  integrity sha512-RLMRR5dn3X07IMYmTTi7XjorayNrh0U2AWe9/uMDrIskE9+t93EcwYzvG2XEsFfjynDdvx1zZR+JkEQUj/2pvQ==
+  dependencies:
+    markdown-it "^8.4.2"
+
 markdown-it-prism@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/markdown-it-prism/-/markdown-it-prism-2.0.2.tgz#0f699f709e156cfe46f9c2db79aff1a2c2d7312b"
