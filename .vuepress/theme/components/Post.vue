@@ -30,7 +30,9 @@ export default {
         month: "2-digit",
         day: "2-digit"
       }
-      return new Date(this.$page.frontmatter.date).toLocaleString("default", option);
+      return this.$page.frontmatter.date ?
+        new Date(this.$page.frontmatter.date).toLocaleString("default", option)
+      : ' ';
     }
     
   },
