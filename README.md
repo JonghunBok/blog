@@ -16,6 +16,7 @@ GitHub Pages를 이용해 호스팅하고 있습니다.
   - [링크드인](https://www.linkedin.com/in/jonghunbok/)
   - [페이스북](https://www.facebook.com/jonghun.park.16)
   - [메일](mailto:jonghun.park.194@gmail.com)
+  - [Observable](https://observablehq.com/@jonghunpark)
 
 
 관심분야
