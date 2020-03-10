@@ -21,5 +21,13 @@ module.exports = {
       md.use(require('markdown-it-figure-caption'));
       md.use(require('markdown-it-multimd-table'));
     }
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-160168849-1'
+      }
+    ]
+  ]
 }
