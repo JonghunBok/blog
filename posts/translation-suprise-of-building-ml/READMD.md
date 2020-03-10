@@ -1,5 +1,5 @@
 ---
-title: 'ML 프로덕트를 만드는데 필요한 것들에 대한 놀라운 진실'
+title: '번역; ML 프로덕트를 만드는데 필요한 것들에 대한 놀라운 진실'
 tags:
   - translation
   - ML Product
