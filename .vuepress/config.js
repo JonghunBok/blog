@@ -23,11 +23,7 @@ module.exports = {
     }
   },
   plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'UA-160168849-1'
-      }
-    ]
+    [ '@vuepress/google-analytics', { 'ga': 'UA-160168849-1' } ],
+    ['sitemap', { hostname: 'https://jonghunbok.github.io' } ]
   ]
 }

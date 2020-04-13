@@ -6,6 +6,9 @@ set -e
 # build
 yarn build
 
+# copy the cred file into the dist directory
+cp google939391bba2e6061f.html .vuepress/dist/ 
+
 # navigate into the build output directory
 cd .vuepress/dist
 

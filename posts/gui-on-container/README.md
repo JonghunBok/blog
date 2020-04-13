@@ -64,7 +64,7 @@ ssh의 X포워딩 기능을 이용하는 것도 같은 원리다. 다만 윈도�
 docker container run \ 
     -v /tmp/.X11-unix/:/tmp/.X11-unix \ # 소켓 마운팅
     -e "DISPLAY" \ # 환경 변수 전달
-    --name container_name 
+    --name container_name \
     image_name
     
     
