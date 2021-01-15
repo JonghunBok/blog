@@ -1,0 +1,6 @@
+[submodule "dist"]
+	path = dist
+	url = https://github.com/JonghunBok/JonghunBok.github.io.git
+[submodule ".vuepress/dist"]
+	path = .vuepress/dist
+	url = https://github.com/JonghunBok/JonghunBok.github.io.git

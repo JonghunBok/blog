@@ -8,6 +8,7 @@ yarn build
 
 # copy the cred file into the dist directory
 cp google939391bba2e6061f.html .vuepress/dist/ 
+cp naverb58fde12ce42ecaf7572240b15b502af.html .vuepress/dist/ 
 
 # navigate into the build output directory
 cd .vuepress/dist
